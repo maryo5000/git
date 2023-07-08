@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+    width: 500px;
+    height: 282px;
+    margin: auto;
+    overflow: hidden;
+   
+
+   
+
+}
+
+.imge1{
+    width: 100%;
+    transform: scale(1.2);
+}
+
+
+.round  {
+    background-color: aqua;
+    width: 189px;
+    height: 158px;
+    position: absolute;
+    top: 461px;
+    border-radius: 50%;
+    right: 561px;
+    /* display: none; */
+    /* transition: 3s ease; */
+    
+   
+
+}
+
+.container:hover .round{
+    top:148px ;
+    transition: 0.5s all;
+    right: 341px;
+    
+   
+  
+    
+
+}
+.container:hover .imge1{
+    transition: 0.5s ease;
+    transform: scale(1);
+    
+}
+
+@media screen and (max-width:575px){
+    body{
+        background-color: aqua;
+    }
+}
+
+
+@media screen and (min-width:575px) and (max-width:991px){
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width:991px) and (max-width:1199px){
+    body{
+        background-color: black;
+    }
+}
